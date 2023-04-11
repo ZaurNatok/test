@@ -1,0 +1,1325 @@
+@font-face {
+    font-family: 'Mishkinshrift';
+    src: url("./fonts/mishkinshrift.ttf") format("ttf"),
+        url("./fonts/mishkinshrift.otf");
+
+}
+
+
+body {
+    position: relative;
+}
+
+
+.thanks {
+    text-align: center;
+    height: 100vh;
+}
+
+.kass {
+    width: fit-content;
+    margin: 0 auto 50px;
+    font-size: 5vw;
+}
+
+.body {
+    background-image: url(./images/background.png);
+    background-size: cover;
+    font-family: "Mishkinshrift";
+    overflow: hidden;
+    position: relative;
+}
+
+.topline {
+    height: 100vh;
+    max-height: 1360px;
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: auto;
+}
+
+.topline__content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 90px;
+    z-index: 1;
+}
+
+.topline__header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto auto 0;
+    background-image: url(./images/title-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px 100px;
+}
+
+.header-first, .header-second {
+    color: #fff;
+}
+
+.title-background {
+    width: 100%;
+}
+
+
+.header-first {
+    font-size: 80px;
+}
+
+.header-second {
+    font-size: 100px;
+}
+
+.topline__subtitle {
+    font-size: 2.5vw;
+    color: #000;
+    width: 1100px;
+    text-align: center;
+    width: 60%;
+}
+
+.wire {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    z-index: 0;
+    top: 250px;
+}
+
+.bird {
+   width: 100px;
+   height: auto;
+   margin-top: 100px;
+}
+
+
+.about {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 120px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.about__text {
+    margin-right: 50px;
+    width: 40%;
+}
+
+.about__title {
+    font-size: 40px;
+    margin: 0 0 50px;
+}
+
+.about__description {
+    font-size: 25px;
+    line-height: 38px;
+    margin: 0;
+}
+
+.about__book {
+    height: auto;
+    width: 750px;
+    position: absolute;
+    right: -89px;
+    top: -80px;
+    z-index: 1;
+}
+
+.about__realg {
+    position: absolute;
+    z-index: 2;
+    right: 150px;
+    bottom: -100px;
+    width: 250px;
+}
+
+.about-book {
+    color: #fff;
+    padding: 100px 120px;
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+}
+
+.about__price {
+    top: 300px;
+    width: 15vw;
+    z-index: 2;
+    position: absolute;
+    right: -82px;
+}
+
+.about-book__text {
+    text-align: right;
+    width: 54%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-book__title {
+    font-size: 100px;
+    margin: 0 0 50px;
+}
+
+.about-book__description {
+    font-size: 30px;
+    margin: 0 0 50px;
+}
+
+.about-book__container {
+    position: relative;
+    background-color: #000;
+    width: 395px;
+    height: 522px;
+}
+
+.about-book__book {
+    position: absolute;
+    width: 400px;
+    top: -15px;
+    left: -15px;
+}
+
+.about-book__button {
+    font-size: 40px;
+    color: #fff;
+    background-image: url(./images/button-bg.png);
+    padding: 10px 30px 10px 60px;
+    align-self: flex-end;
+}
+
+.button-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.about-book__button:hover {
+    cursor: pointer;
+}
+
+.about__realg_about-book {
+    left: 20px;
+    bottom: 30px;
+    width: 100px;
+}
+
+.section-wire {
+    width: 100vw;
+}
+
+.section-wire_margin {
+    margin-top: 50px;
+}
+
+.section-title {
+    margin: 50px auto;
+    font-size: 4.2vw;
+    width: fit-content;
+    text-align: center;
+}
+
+.section-title__first {
+    background: url(./images/orange-bg.png);
+    padding: 5px 9px;
+    background-size: cover;
+}
+
+.section-title__first_header {
+    width: fit-content;
+    margin: auto;
+}
+
+.section-title__big {
+    font-size: 40vw;
+}
+
+.section-title__big-under {
+    font-size: 11vw;
+}
+
+.element {
+    font-size: 3.5vw;
+    color: #fff;
+    transform:rotate(45deg);
+}
+
+.info {
+    padding: 120px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info img {
+    width: 100%;
+}
+
+.info__third {
+    margin-top: -82px;
+}
+
+.info__fourth {
+    margin-top: 107px;
+}
+
+.info__fifth {
+    margin-top: -127px;
+}
+
+.section-title_author {
+    font-size: 8vw;
+}
+
+.audio-section {
+    padding: 50px 60px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.audio-section__author {
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    background-image: url(./images/author.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.playBtn, .pauseBtn {
+    height: 80px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.audio-section__audio {
+    width: 56%;
+    max-width: 750px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 65px;
+    border-radius: 30px;
+}
+
+#waveform {
+    width: 100%;
+}
+
+
+
+.section-title_real {
+    margin-bottom: 180px;
+}
+
+
+.section-order {
+    margin-bottom: 100px;
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 300px);
+    max-width: 1672px;
+    margin: auto;
+    background-color: #000;
+    border-radius: 30px;
+    padding: 70px 90px;
+    color: #fff;
+    text-align: right;
+}
+
+.order__title {
+    font-size: 7vw;
+    max-width: 50%;
+    margin: 0 100px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.order__form {
+    width: 50%;
+    max-width: 650px;
+}
+
+.order__input, .order__submit {
+    width: 100%;
+    border-radius: 15px;
+    text-align: center;
+    color: #000;
+    padding: 15px 0;
+    font-size: 2.5vw;
+}
+
+.order__input::placeholder {
+    color: #000;
+}
+
+.order__input:focus-visible {
+    outline-color: #ff5a00;
+}
+
+.order__input {
+    margin-bottom: 20px;
+
+}
+
+.order__submit {
+    background-color: #ff5a00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.logos {
+    width: fit-content;
+    margin: 0 auto 20px;
+}
+
+.email {
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 290px;
+}
+
+.kass {
+    position: relative;
+    font-size: 7vw;
+}
+
+.whoIsKass {
+    width: 90%;
+    padding:10px;
+    margin: auto;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "video video video"
+    "link link1 link2"
+    ". . ."; 
+}
+
+.whoIsKass__link {
+    margin: auto;
+}
+
+.video-cover {
+    width: 100%;
+}
+
+.video { grid-area: video; width:100%; height:500px;}
+.link { grid-area: link; }
+.link1 { grid-area: link1; }
+.link2 { grid-area: link2; }
+
+.whoIsKass img {
+    width: 20vw;
+}
+
+.link2 img {
+    border: solid 1px #000;
+}
+
+.arrow {
+    position: absolute;
+    width: 33vw;
+    top: -452px;
+    left: 649px;
+}
+
+.payment-systems {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 40px);
+    margin: auto;
+    background-color: #000;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 15px 10px;
+}
+
+.payment-systems img {
+    width: auto;
+    height: 11vw;
+}
+
+.quantity__input {
+    display: flex;
+}
+
+.quantity__text {
+    margin-left: 10px;
+}
+
+.quantity {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.order__input_quantity {
+    width: 100px;
+    text-align: center;
+}
+
+.price::after {
+    content: ' Р';
+}
+
+.price {
+    font-size: 4vw;
+    margin: 0;
+}
+
+.social {
+    position: absolute;
+    width: auto;
+    height: 26vw;
+}
+
+.social-right {
+    width: 22vw;
+    position: absolute;
+    right: -43px;
+}
+
+.menu-footer {
+    text-align: center;
+}
+
+.menu-footer__links {
+    font-size: 3vw;
+    line-height: 6vw;
+}
+
+.menu-footer a {
+    color: #000;
+}
+
+.modal {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.5);
+    z-index: 3;
+}
+
+.modal-window {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: calc(100% - 100px);
+    margin: auto;
+    z-index: 6;
+}
+
+.close {
+    width: 20px;
+    position: absolute;
+    top: -22px;
+    right: -22px;
+    cursor: pointer;
+}
+
+@media screen and (min-width:1920px) {
+    .arrow {
+        position: absolute;
+        width: 26vw;
+        top: -452px;
+        left: 849px;
+    }
+}
+
+@media screen and (min-width:1441px) {
+    .about__text {
+        width: 50%;
+    }
+
+    .about__title {
+        font-size: 4vw;
+    }
+
+    .about__description {
+        font-size: 2vw;
+        line-height: 2.5vw;
+    }
+
+    .about__book {
+        width: 926px;
+    }
+
+    .about-book__description {
+        font-size: 2vw;
+    }
+
+    .about-book__book {
+        width: 480px;
+    }
+
+    .about-book__container {
+        width: 480px;
+        height: 632px;
+    }
+
+    .about-book__button {
+        font-size: 3vw;
+    }
+
+    .bird {
+        width: 350px;
+        margin-top: 100px;
+    }
+
+    .audio-section {
+        padding: 50px 200px 150px;
+    }
+
+    .topline__header {
+        background-size: cover;
+        padding: 10px 200px;
+    }
+
+    .header-second {
+        font-size: 6vw;
+    }
+
+    .header-first {
+        font-size: 4vw;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1439px) {
+
+    .wire {
+        height: 25vh;
+    }
+
+    .topline__header {
+        padding: 10px 5vw;
+    }
+
+    .header-first {
+        font-size: 6vw;
+    }
+
+    .header-second {
+        font-size: 8vw;
+    }
+
+    .topline__subtitle {
+        font-size: 2.5vw;
+    }
+
+    .about__book {
+        width: 60vw;
+        top: -52px;
+    }
+
+    .about__title {
+        font-size: 3vw;
+    }
+
+    .about__description {
+        font-size: 2vw;
+        line-height: 2.5vw;
+    }
+
+    .about__realg {
+        width: 17vw;
+    }
+
+    .about__realg_about-book {
+        width: 6vw;
+    }
+
+    .about-book {
+        padding: 150px 120px;
+    }
+
+    .about-book__title {
+        font-size: 6vw;
+    }
+
+    .about-book__description {
+        font-size: 1.8vw;
+    }
+
+    .about-book__book {
+        width: 30vw;
+    }
+
+    .about-book__container {
+        width: 29vw;
+        height: 39vw;
+    }
+
+    .about-book__button {
+        font-size: 3vw;
+    }
+
+    .info {
+        padding: 5vw 50px;
+    }
+
+    .info__third {
+        margin-top: -43px;
+    }
+
+    .audio-section {
+        padding: 50px 60px 50px;
+    }
+
+    .audio-section__author {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .audio-section__audio {
+        width: 50vw;
+        padding: 20px;
+    }
+
+    .playBtn, .pauseBtn {
+        height: 100px;
+        margin-right: 10px;
+    }
+
+    .section-title_real {
+        margin-bottom: 12vw;
+    }
+
+    .order {
+        padding: 50px;
+        width: calc(100% - 200px);
+    }
+
+    .order__title {
+        margin: 0 50px 0 0;
+    }
+
+    .arrow {
+        position: absolute;
+        width: 26vw;
+        top: -253px;
+        left: 460px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-first {
+        font-size: 8vw;
+    }
+
+    .header-second {
+        font-size: 11vw;
+    }
+
+    .topline__header {
+        padding: 10px 6vw;
+    }
+
+    .topline__subtitle {
+        font-size: 2.5vw;
+    }
+
+    .wire {
+        height: 17vw;
+    }
+
+    .about__book {
+        width: 60vw;
+        top: -24px;
+    }
+
+    .about__price {
+        top: 170px;
+        width: 15vw;
+        right: -29px;
+    }
+
+    .about {
+        padding: 50px;
+    }
+
+    .about__title {
+        font-size: 3.8vw;
+        margin: 0 0 30px;
+    }
+
+    .about__description {
+        font-size: 2vw;
+        line-height: 2.8vw;
+    }
+
+    .about__realg {
+        right: 47px;
+        bottom: -75px;
+        width: 23vw;
+    }
+
+    .about-book__container {
+        width: 29vw;
+        height: 39vw;
+    }
+
+    .about-book__book {
+        width: 30vw;
+    }
+
+    .about-book {
+        padding: 100px 50px;
+    }
+
+    .about-book__title {
+        font-size: 9vw;
+        margin: 0 0 20px;
+    }
+
+    .about-book__description {
+        font-size: 2.5vw;
+        margin: 0 0 20px;
+    }
+
+    .about-book__text {
+        width: 61%;
+    }
+
+    .about-book__button {
+        font-size: 3vw;
+    }
+
+    .about__realg_about-book {
+        left: 7px;
+        bottom: 25px;
+        width: 100px;
+        width: 8vw;
+    }
+
+    .audio-section__author {
+        width: 25vw;
+        height: 25vw;
+        background-position-y: -150px;
+    }
+
+    .audio-section__audio {
+        width: 50%;
+        padding: 20px;
+    }
+
+    .playBtn, .pauseBtn {
+        height: 80px;
+        margin-right: 10px;
+    }
+
+    .order {
+        width: calc(100% - 100px);
+        padding: 30px;
+    }
+
+    .info__third {
+        margin-top: -47px;
+    }
+
+    .order__title {
+        max-width: 40%;
+        margin: 0 50px 0 0;
+    }
+
+    .arrow {
+        position: absolute;
+        width: 29vw;
+        top: -253px;
+        left: 367px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .wire {
+        height: 19vw;
+        bottom: 200px;
+    }
+
+    .bird {
+        margin-top: 150px;
+    }
+
+    .topline__content {
+        padding-bottom: 150px;
+    }
+
+    .topline__header {
+        background-size: cover;
+        padding: 10px 38px;
+    }
+
+    .header-first {
+        font-size: 7vw;
+    }
+
+    .header-second {
+        font-size: 10vw;
+    }
+
+    .topline__subtitle {
+        font-size: 3.5vw;
+        width: 80%;
+    }
+
+    .about {
+        padding: 70px 30px;
+        flex-direction: column;
+    }
+
+    .about__title {
+        margin: 0 0 30px;
+    }
+
+    .about__text {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .about__book {
+        position: relative;
+        width: 100%;
+        left: 0;
+        top: 20px;
+    }
+
+    .about__price {
+        top: 305px;
+        width: 35vw;
+        right: -21px;
+    }
+
+    .about-book__container {
+        margin: auto;
+    }
+
+    .about__description {
+        font-size: 4vw;
+        line-height: 5vw;
+    }
+
+    .about__realg {
+        bottom: -32px;
+        width: 33vw;
+    }
+
+    .about-book {
+        padding: 100px 60px;
+        flex-direction: column;
+    }
+
+    .about__realg_about-book {
+        bottom: 30px;
+        width: 15vw;
+    }
+
+    .about-book__text {
+        text-align: center;
+        width: 100%;
+    }
+
+    .about-book__description {
+        font-size: 5vw;
+    }
+
+    .about-book__title {
+        margin: 50px 0 50px;
+    }
+
+    .section-title {
+        font-size: 7vw;
+    }
+
+    .info {
+        padding: 50px;
+        grid-template-columns: 1fr;
+    }
+
+    .info__third {
+        margin-top: 30px;
+    }
+
+    .info__fourth {
+        margin-top: 20px;
+    }
+
+    .info__fifth {
+        margin-top: 30px;
+    }
+
+    .audio-section {
+        flex-direction: column;
+        padding: 50px 30px 50px;
+    }
+
+    .audio-section__audio {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+
+    .order {
+        flex-direction: column;
+        width: calc(100% - 120px);
+        max-width: 1672px;
+        padding: 40px;
+        text-align: center;
+    }
+
+    .order__title {
+        width: fit-content;
+        max-width: 100%;
+        align-items: center;
+        margin: 0 auto 30px;
+    }
+
+    .order__form {
+        width: 100%;
+    }
+
+    .order__input, .order__submit {
+        font-size: 4vw;
+    }
+
+    .section-title_real {
+        margin-bottom: 80px;
+    }
+
+    .logos {
+        text-align: center;
+    }
+
+    .section-order {
+        margin-bottom: 50px;
+    }
+
+    .section-title {
+        max-width: calc(100% - 60px);
+    }
+
+    .arrow {
+        position: absolute;
+        width: 46vw;
+        top: -253px;
+        left: 36px;
+        rotate: -35deg;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+
+    .topline {
+        height: 77vh;
+    }
+
+    .wire {
+        height: 28vw;
+        bottom: 270px;
+    }
+
+    .topline__header {
+        padding: 5px 25px;
+    }
+
+    .header-first {
+        font-size: 8vw;
+    }
+    .header-second {
+        font-size: 10vw;
+    }
+
+    .topline__content {
+        padding-bottom: 9vw;
+    }
+
+    .bird {
+        margin-top: 20vw;
+        width: 39vw;
+    }
+
+    .topline__subtitle {
+        font-size: 3.5vw;
+        width: 90%;
+    }
+
+    .about {
+        padding: 20px;
+    }
+
+    .about__title {
+        margin: 0 0 30px;
+        font-size: 4vw;
+    }
+
+    .about__text {
+        margin-right: 0;
+        width: 50%;
+    }
+
+    .about-book__book {
+        width: 100%;
+        position: absolute;
+        top: -13px;
+        left: -5px;
+    }
+
+    .about__book {
+        position: absolute;
+        width: 70%;
+        left: 190px;
+        top: -23px;
+        padding: 20px 0;
+        height: auto;
+    }
+
+    .about__description {
+        font-size: 2.5vw;
+        line-height: 4vw;
+    }
+
+    .about__realg {
+        bottom: -40px;
+        width: 26vw;
+        right: 11px;
+    }
+
+    .about-book {
+        padding: 50px 20px;
+    }
+
+    .about__realg_about-book {
+        bottom: 11px;
+        width: 7vw;
+        left: 6px;
+    }
+
+    .about-book__text {
+        text-align: right;
+        width: 60%;
+    }
+
+    .about-book__description {
+        font-size: 2.5vw;
+        text-align: right;
+        margin: 0 0 20px;
+    }
+
+    .about-book__title {
+        font-size: 6vw;
+        text-align: right;
+        margin: 0 0 20px;
+    }
+
+    .about-book__container {
+        width: 40%;
+        height: 45vw;
+        margin: 0 auto;
+    }
+
+    .about__price {
+        top: 112px;
+        width: 16vw;
+        right: -21px;
+    }
+
+    .about__realg_about-book {
+        left: 11px;
+    }
+
+    .about-book__button {
+        font-size: 3vw;
+        padding: 10px 20px 10px 50px;
+        width: 65%;
+    }
+
+    .info {
+        padding: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .info__third {
+        margin-top: -20px;
+    }
+
+    .info__fourth {
+        margin-top: 20px;
+    }
+
+    .info__fifth {
+        margin-top: -26px;
+    }
+
+    .audio-section {
+        padding: 20px;
+    }
+
+    .audio-section__audio {
+        width: 80%;
+        padding: 10px;
+        height: 50px;
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+
+    .order {
+        width: calc(100% - 40px);
+        max-width: 1672px;
+        padding: 10px;
+        text-align: left;
+        border-radius: 10px;
+        display: block;
+    }
+
+    .order__title {
+        width: fit-content;
+        max-width: 100%;
+        align-items: center;
+        margin: auto;
+        text-align: right;
+    }
+
+    .order__form {
+        width: 100%;
+    }
+
+    .order__input, .order__submit {
+        font-size: 4vw;
+    }
+    
+    .order__submit {
+        margin-bottom: 12px;
+    }
+
+    .order__input {
+        margin-bottom: 5px;
+    }
+
+    .order__input_quantity {
+        width: 50px;
+    }
+
+    .section-title_real {
+        margin-bottom: 80px;
+    }
+
+    .logos {
+        text-align: center;
+    }
+
+    .logos__logo {
+        width: 32%;
+    }
+
+    .logos__logo_social {
+        width: 35%;
+    }
+
+    .section-order {
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    .audio-section {
+        flex-direction: column;
+    }
+
+    .audio-section__author {
+        width: 72vw;
+        height: 72vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .playBtn, .pauseBtn {
+        height: 30px;
+        margin-right: 5px;
+    }
+
+    .section-title {
+        font-size: 4vw;
+        margin: 20px auto;
+    }
+
+    .section-title_author {
+        font-size: 8vw;
+    }
+
+    #wavwform {
+        height: 50px;
+    }
+
+    .whoIsKass {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        grid-template-rows: auto 7em auto;
+        padding: 0;
+        width: 100%;
+    }
+
+    .arrow {
+        position: absolute;
+        width: 45vw;
+        top: -170px;
+        left: 47px;
+        rotate: -50deg;
+    }
+    
+    .video { 
+        height:200px;
+    }
+
+    .social {
+        width: auto;
+        height: 66vw;
+    }
+    
+    .social-right {
+        width: 43vw;
+        right: -43px;
+    }
+
+    .audio-section__author {
+        display: none;
+    }
+}
+
+@media (max-height: 375px) {
+    .about {
+        margin-top: 114px;
+    }
+}
+
+@media (max-height: 414px) {
+    .about {
+        margin-top: 140px;
+    }
+}
+
+
+.invisible {
+    display: none;
+}

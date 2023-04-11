@@ -1,0 +1,304 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vendor/normalaize.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- <script src="https://unpkg.com/wavesurfer.js"></script> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+    <title>Преодолевая Гэнгсташит</title>
+</head>
+
+<body>
+    
+    <div class="modal modal_contacts invisible">
+        <div class="modal-window">
+            <img src="./images/close.svg" alt="" class="close">
+            <h3 class="modal__title">Контактная информация</h3>
+            <p class="modal__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+
+
+<main class="body">
+
+<img src="./images/social-icons.png" alt="" class="social">
+<img src="./images/social-icons-2.png" alt="" class="social-right">
+    <div class="topline">
+        <div class="topline__content">
+            <img src="./images/bird3.png" alt="" class="bird">
+            <div class="topline__header">
+                <span class="header-first">«Преодолевая</span>
+                <span class="header-second">гэнгсташит»</span>
+                <span class="section-title__first section-title__first_header">REAL G EDITION</span>
+            </div>
+            <p class="topline__subtitle">Насколько дерьмовое название, настолько же крутое содержание</p>
+        </div>
+
+    
+    </div>
+    <img src="./images/wire.png" alt="" class="wire">
+
+    <div class="about">
+        <div class="about__text">
+            <h2 class="about__title">О книге<br>за 1500 р</h2>
+            <p class="about__description">Произведение написано в тюремных застенках, но с наглой ухмылкой. Современные реалии делают его не просто книгой воспоминаний, а очень даже актуальной инструкцией. </p>
+        </div>
+        <img src="./images/book.png" alt="" class="about__book">
+        <img src="./images/realG.png" alt="" class="about__realg">
+    </div>
+
+    <img src="./images/wire2.png" alt="" class="section-wire section-wire_margin">
+
+    <div class="section-title kass">
+        <span class="section-title section-title_author kass">Who the f*ck is Kass?</span>
+    </div>
+
+
+    <!-- <img src="./images/video-cover.png" alt="" class="video-cover"> -->
+    <div class="whoIsKass">
+
+  
+        
+        <!-- <iframe class="video" src="https://www.youtube.com/embed/LoaIl9khojQ" title="YouTube video player" poster="images/video-cover.png" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+        
+        <a href="https://www.youtube.com/watch?v=s4j1oi-b89M" class="whoIsKass__link link" target="_blank">
+            <img src="images/vpiska.jpg" class="whoIsKass__element" alt="vpiska">
+        </a>
+        <a href="https://www.youtube.com/watch?v=Ckv9-HRBTG0" class="whoIsKass__link link1" target="_blank">
+            <img src="images/sereja.jpg" class="whoIsKass__element" alt="vpiska">
+        </a>
+        <a href="https://www.youtube.com/watch?v=ofrp_wndgrI" class="whoIsKass__link link2" target="_blank">
+            <img src="images/kuji.jpg" class="whoIsKass__element" alt="vpiska">
+        </a>
+
+    </div>
+
+    <img src="./images/wire2.png" alt="" class="section-wire">
+
+    <div class="section-title">
+        <span class="section-title section-title_author">откровения автора</span>
+    </div>
+
+    <div class="audio-section">
+        <div class="audio-section__audio">
+            <div class="control-bar">
+                <img src="./images/play.png" alt="" class="playBtn">
+                <img src="./images/pause.png" alt="" class="pauseBtn invisible">
+            </div>
+            <div id="waveform" class="waveform"></div>
+        </div>
+        <div class="audio-section__author"></div>
+    </div>
+
+    <img src="./images/wire2.png" alt="" class="section-wire">
+
+
+
+    <div class="section-title">
+        <span class="section-title__first">REAL G EDITION</span>
+        <span class="section-title__second">выйдет тиражом</span>
+        <br>
+        <span class="section-title__big">999</span>
+        <br>
+        <span class="section-title__big-under">экземпляров</span>
+    </div>
+
+    <div class="info">
+        <img src="./images/elements/first.png" alt="" class="info__first">
+        <img src="./images/elements/second.png" alt="" class="info__second">
+        <img src="./images/elements/third.png" alt="" class="info__third">
+        <img src="./images/elements/fourth.png" alt="" class="info__fourth">
+        <img src="./images/elements/fifth.png" alt="" class="info__fifth">
+    </div>
+
+    <img src="./images/wire2.png" alt="" class="section-wire">
+
+    <div class="section-order" id="buy">
+        <div class="order">
+            <h3 class="order__title">Сделать заказ</h3>
+            <form method='POST' target="_blank" action='https://demo.open-processing.ru/create/' class="order__form" name="buyBook" id="placeOrder">
+                <input type='text' name='sum' value='15' class="order__input order__input_paymentSum invisible"/> <br />
+                <input type='text' name='clientid' placeholder='ФИО' class="order__input" required/> <br />
+                <input type='text' name='client_phone' placeholder='Номер телефона' class="order__input" required/> <br />
+                <input type='text' name='client_email' placeholder='E-mail' class="order__input" required/> <br />
+                <input type='text' name='service_name' placeholder='Адрес доставки' class="order__input" required/> <br />
+                <input type='text' name='cart' value='[{"name":"Книга Преодолевая Гэнгсташит","price":1500,"quantity":1,"sum":15,"tax":"vat20","item_type":"book","payment_type":"prepay"}]' class="order__input order__input_theOrder invisible" required/> <br />
+                <div class="quantity">
+                    <div class="quantity__input">
+                        <input type='number' name='quantity' placeholder='' value='1' class="order__input order__input_quantity" min="1" required/>
+                        <p class="quantity__text">экз.</p> 
+                    </div>
+                    <p class="price">1500</p>
+                </div>
+
+                <button type="submit" class="order__submit">Перейти к оплате</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="payment-systems">
+        <img src="./images/mastercard.jpg" alt="" class="paymant-system">
+        <img src="./images/visa.webp" alt="" class="paymant-system">
+        <img src="./images/paykeep.png" alt="" class="paymant-system">
+    </div>
+
+    <div class="menu-footer">
+        <p class="menu-footer__links"><a href="#" class="contacts-link">Контактная информация</a> | <a href="#" class="payments-link">Способы оплаты</a> | <a href="#" class="delivery-link">Условия доставки</a> | <a href="#" class="refund-link">Возврат товара</a></p>
+    </div>
+    
+
+    <div class="logos">
+        <a href="https://youtube.com/@user-zw6tn9bk2b" target="_blank"><img src="./images/logo-1.png" alt="" class="logos__logo"></a>
+        <a href="https://instagram.com/avg_officialpage?igshid=MjkzY2Y1YTY=" target="_blank"><img src="./images/logo-2.png" alt="" class="logos__logo"></a>
+        <a href="https://instagram.com/skv1z?igshid=MjkzY2Y1YTY=" target="_blank"><img src="./images/logo-3.png" alt="" class="logos__logo"></a>
+    </div>
+
+    <div class="section-title section-title_real">
+        <span class="section-title">Издание<br>«REAL G EDITION»<br>продаётся только на этом сайте</span>
+    </div>
+
+</main>
+
+
+
+  <script>
+
+    let wavesurfer = {};
+    
+    const playBtn = document.querySelector('.playBtn');
+    const pauseBtn = document.querySelector('.pauseBtn');
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        wavesurfer = WaveSurfer.create({
+            container: document.querySelector('#waveform'),
+            waveColor: 'white',
+            progressColor: 'gray',
+            height: 68,
+            barWidth: 3,
+            barGap: null,
+            responsive: true
+        })
+        wavesurfer.load('audio.mp3');
+    });
+    
+    playBtn.addEventListener('click', () => {
+        wavesurfer.play();
+        pauseBtn.classList.toggle('invisible');
+        playBtn.classList.toggle('invisible');
+    });
+    
+    pauseBtn.addEventListener('click', () => {
+        wavesurfer.pause();
+        pauseBtn.classList.toggle('invisible');
+        playBtn.classList.toggle('invisible');
+    })
+
+// собираем данные по клиенту
+
+const theForm = document.forms.buyBook;
+let date = dateFormat(new Date());
+
+theForm.addEventListener('submit', (e) => {
+   e.preventDefault();
+
+    let clientInfo = {
+        name: theForm.clientid.value,
+        phone: theForm.client_phone.value,
+        email: theForm.client_email.value,
+        address: theForm.service_name.value,
+        price: theForm.sum.value,
+        date: date
+    }
+
+// собираем данные по заказу
+let quantity = document.querySelector('.order__input_quantity');
+
+    let order = {
+        name: 'Книга Преодолевая Гэнгсташит',
+        price: 1500,
+        quantity: quantity.value,
+        sum: 1500 * quantity.value,
+        tax: 'vat20',
+        item_type: 'book',
+        payment_type: 'prepay',
+        date: date
+    }
+ 
+    let theClient = localStorage.setItem('client', JSON.stringify(clientInfo));
+    let theOrder = localStorage.setItem('order', JSON.stringify(order));
+
+    theForm.cart.setAttribute('value', `[{"name": 'Книга Преодолевая Гэнгсташит',"price":1500,"quantity":${quantity.value},"sum":${1500 * quantity.value},"tax":"vat20","item_type":"book","payment_type":"prepay"}]`);
+
+    theForm.sum.setAttribute('value', 1500 * quantity.value);
+    
+    document.getElementById("placeOrder").submit();
+})
+
+
+function dateFormat(date) {
+    var theDate = date.getDate()  + "-" + (date.getMonth()+1) + "-" + date.getFullYear() + " " +
+    date.getHours() + ":" + date.getMinutes();
+
+    return theDate;
+}
+
+      </script>
+
+<script>
+
+document.querySelectorAll('a[href^="#"').forEach(link => {
+
+link.addEventListener('click', function(e) {
+    e.preventDefault();
+
+    if(link.classList.contains('scrollto')) {
+        let href = this.getAttribute('href').substring(1);
+
+const scrollTarget = document.getElementById(href);
+
+const topOffset = document.querySelector('.scrollto').offsetHeight;
+// const topOffset = 0; // если не нужен отступ сверху 
+const elementPosition = scrollTarget.getBoundingClientRect().top;
+const offsetPosition = elementPosition - topOffset;
+
+window.scrollBy({
+    top: offsetPosition,
+    behavior: 'smooth'
+});
+    }
+
+
+});
+});
+
+    </script>
+
+    <script>
+        let quantity = document.querySelector('.order__input_quantity');
+        let price = document.querySelector('.price');
+        let priceSum = 1500;
+        let submit = document.querySelector('.order__submit');
+
+        quantity.addEventListener('keyup', function() {
+            if(quantity.value) {
+                submit.removeAttribute('disabled');
+                price.textContent = quantity.value * priceSum;
+            } else if(quantity.value = '' || quantity.value < 1) {
+                price.textContent = 'Введите количество';
+                submit.setAttribute('disabled', true);
+            }
+        })
+    </script>
+
+<script src="./script-main.js"></script>
+</body>
+</html>
