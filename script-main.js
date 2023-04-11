@@ -44,7 +44,7 @@ document.addEventListener('click', (e) => {
         modal.classList.toggle('invisible');
         modalTitle.textContent = refund.title;
         modalText.textContent = refund.text;
-    } else if(e.target == closeBtn || !e.target.classList.contains('modal-window')) {
+    } else if(e.target == closeBtn || e.target.classList.contains('modal')) {
         modal.classList.toggle('invisible');
     }
 })
