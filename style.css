@@ -487,15 +487,36 @@ body {
 }
 
 .social {
+    position: relative;
+    width: fit-content;
+}
+
+.social-img {
     position: absolute;
     width: auto;
     height: 26vw;
+    position: relative;
 }
 
-.social-right {
+.social-img-right {
     width: 22vw;
     position: absolute;
     right: -43px;
+    top: 0;
+}
+
+.twitter-logo {
+    position: absolute;
+    top: 61px;
+    width: 4.5vw;
+    left: 100px;
+}
+
+.insta-logo {
+    position: absolute;
+    top: 142px;
+    width: 4vw;
+    left: 98px;
 }
 
 .menu-footer {
@@ -608,11 +629,15 @@ body {
     }
 }
 
+
+
 @media (min-width: 992px) and (max-width: 1439px) {
 
     .wire {
         height: 25vh;
     }
+
+
 
     .topline__header {
         padding: 10px 5vw;
@@ -1096,8 +1121,8 @@ body {
     }
 
     .about__description {
-        font-size: 2.5vw;
-        line-height: 4vw;
+        font-size: 3vw;
+        line-height: 5vw;
     }
 
     .about__realg {
@@ -1292,10 +1317,7 @@ body {
         height:200px;
     }
 
-    .social {
-        width: auto;
-        height: 66vw;
-    }
+
     
     .social-right {
         width: 43vw;
@@ -1304,6 +1326,22 @@ body {
 
     .audio-section__author {
         display: none;
+    }
+
+
+
+    .twitter-logo {
+        position: absolute;
+        top: 16px;
+        width: 5vw;
+        left: 28px;
+    }
+
+    .insta-logo {
+        position: absolute;
+        top: 40px;
+        width: 4.5vw;
+        left: 25px;
     }
 }
 
@@ -1319,6 +1357,139 @@ body {
     }
 }
 
+@media (width: 390px) and (height: 844px) {
+    .topline {
+        height: 32vh;
+    }
+
+    .bird {
+        margin-top: -41vw;
+    }
+
+    .social-img {
+        position: absolute;
+        width: auto;
+        height: 58vw;
+        position: relative;
+    }
+
+    .social-img-right {
+        width: 38vw;
+        position: absolute;
+        right: -43px;
+        top: 0;
+    }
+
+    .twitter-logo {
+        top: 31px;
+        width: 12vw;
+        left: 58px;
+    }
+
+    .insta-logo {
+        top: 83px;
+        width: 10.5vw;
+        left: 48px;
+    }
+}
+
+@media (min-width: 360px) and (min-height: 667px) {
+    .topline {
+        height: 32vh;
+    }
+
+    .bird {
+        margin-top: -41vw;
+    }
+
+    .social-img {
+        position: absolute;
+        width: auto;
+        height: 58vw;
+        position: relative;
+    }
+
+    .social-img-right {
+        width: 38vw;
+        position: absolute;
+        right: -43px;
+        top: 0;
+    }
+
+    .twitter-logo {
+        top: 31px;
+        width: 12vw;
+        left: 58px;
+    }
+
+    .insta-logo {
+        top: 83px;
+        width: 10.5vw;
+        left: 48px;
+    }
+}
+
+@media (min-width: 768px) and (min-height: 1024px) {
+    .topline {
+        height: 32vh;
+    }
+
+    .bird {
+        margin-top: -41vw;
+        width: 150px;
+    }
+
+    .wire {
+        top: 418px;
+    }
+
+    .twitter-logo {
+        top: 69px;
+        left: 119px;
+    }
+
+    .insta-logo {
+        top: 176px;
+        left: 107px;
+    }
+}
+
+
+@media (width: 1440px){
+
+    .social-img {
+        height: 38vw;
+    }
+
+    .social-img-right {
+        width: 25vw;
+    }
+
+    .topline {
+        height: 59vh;
+    }
+
+    .bird {
+        margin-top: -29vw;
+        width: 200px;
+    }
+
+    .twitter-logo {
+        top: 76px;
+        width: 8vw;
+        left: 130px;
+    }
+
+    .insta-logo {
+        top: 193px;
+        left: 114px;
+        width: 7.5vw;
+    }
+
+    .wire {
+        top: 457px;
+    }
+}
 
 .invisible {
     display: none;
